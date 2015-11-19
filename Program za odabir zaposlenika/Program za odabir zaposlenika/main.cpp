@@ -9,10 +9,19 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "FunkcijePrograma.pch"
+#include "Header.h"
 using namespace std;
 
 
 int main() {
+    string imeOsobe, PrezimeOsobe;
+    int godine;
+    string imeSkole;
+
+    
+    UnesiIme(imeOsobe,PrezimeOsobe);
+    UnesiStarost(godine);
+    UnesiSrednjuSkolu(imeSkole);
+    
     
 }
