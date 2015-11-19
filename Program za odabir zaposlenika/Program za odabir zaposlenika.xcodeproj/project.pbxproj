@@ -25,7 +25,7 @@
 /* Begin PBXFileReference section */
 		B3655BFE1BFCF32C00974825 /* Program za odabir zaposlenika */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Program za odabir zaposlenika"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3655C011BFCF32C00974825 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B3655C081BFCF3CF00974825 /* FunkcijePrograma.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunkcijePrograma.pch; sourceTree = "<group>"; };
+		B3655C1C1BFE1F8100974825 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B3655C011BFCF32C00974825 /* main.cpp */,
-				B3655C081BFCF3CF00974825 /* FunkcijePrograma.pch */,
+				B3655C1C1BFE1F8100974825 /* Header.h */,
 			);
 			path = "Program za odabir zaposlenika";
 			sourceTree = "<group>";
@@ -205,6 +205,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
 			};
 			name = Debug;
 		};
@@ -212,6 +213,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.9;
 			};
 			name = Release;
 		};
@@ -234,6 +236,7 @@
 				B3655C071BFCF32C00974825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
